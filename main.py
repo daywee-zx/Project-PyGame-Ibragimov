@@ -401,7 +401,7 @@ if __name__ == '__main__':
         # Начало СЛЕДУЮЩЕГО уровня
         if start_next_level:
             picked_level = str(int(picked_level) + 1)
-            if picked_level != '8':
+            if picked_level != '9':
                 all_sprites = pygame.sprite.Group()
                 tiles_group = pygame.sprite.Group()
                 walls_group = pygame.sprite.Group()
